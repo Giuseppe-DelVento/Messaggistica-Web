@@ -4,7 +4,7 @@ const cors = require('cors')
 
 const app = express()
 
-mongoose.connect("mongodb+srv://gdelvento:Nuova789%3F%21@cluster0.jfufh8i.mongodb.net/Progetto")
+mongoose.connect("mongodb url")
 
 const db = mongoose.connection
 db.once("open", () => {
